@@ -1,0 +1,39 @@
+table, td {
+    border: 1px solid white;
+  }
+
+table{
+  width: 100%;
+}
+
+.scrollable-table{
+  margin-top: 80px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+td {
+  text-align: center;
+}
+th{
+  background-color: rgb(100, 115, 242);;
+  border: 1px solid rgb(100, 115, 242);
+  color: white;
+}
+
+
+.removeBtn{
+  width: 1vw;
+}
+
+.removeBtn button:hover {
+  background-color: rgb(100, 115, 242); 
+}
+
+.backgroundImage {
+  background-image: url("./backgroundImg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
