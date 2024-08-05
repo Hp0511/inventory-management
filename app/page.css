@@ -31,7 +31,7 @@ th{
 }
 
 .backgroundImage {
-  background-image: url("./backgroundImg.jpg");
+  background-image: url("../public/backgroundImg.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

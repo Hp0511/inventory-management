@@ -6,7 +6,7 @@ import { firestore } from '../firebase';
 import { Box, Button, Typography, TextField, Container } from '@mui/material';
 import { collection, getDocs, query, setDoc, doc, deleteDoc, updateDoc } from 'firebase/firestore';
 
-export default function Home() {
+export default function Page() {
   const [inventory, setInventory] = useState([]);
   const [itemName, setItemName] = useState('');
   const [quantity, setQuantity] = useState(1);
